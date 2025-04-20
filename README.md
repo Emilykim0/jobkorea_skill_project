@@ -15,7 +15,18 @@
 
 ## 📁 폴더 구조
 
-jobkorea_skill_project/ ├── data/ │ ├── cloud.png # 워드클라우드 마스크 이미지 │ └── jobkorea_skill_frequency.csv # 스킬 빈도 데이터 │ ├── images/ │ ├── skill_graph_.png # 키워드별 스킬 빈도 그래프 │ └── wordcloud_.png # 키워드별 워드클라우드 │ ├── jobkorea_메모.txt # HTML 구조 분석 참고 메모 ├── jobkorea.py # 크롤링 + 시각화 전체 코드 └── README.md # 프로젝트 설명 문서
+```
+jobkorea_skill_project/
+├── data/                             # 데이터 및 마스크 이미지
+│   ├── cloud.png                     # 워드클라우드 마스크 이미지
+│   └── jobkorea_skill_frequency.csv  # 스킬 빈도 데이터
+├── images/                           # 시각화 결과 이미지
+│   ├── skill_graph_.png              # 키워드별 스킬 빈도 그래프
+│   └── wordcloud_.png                # 키워드별 워드클라우드 이미지
+├── jobkorea_메모.txt                  # HTML 구조 분석 참고 메모
+├── jobkorea.py                       # 크롤링 + 시각화 전체 코드
+└── README.md                         # 프로젝트 설명 문서
+```
 
 ---
 
